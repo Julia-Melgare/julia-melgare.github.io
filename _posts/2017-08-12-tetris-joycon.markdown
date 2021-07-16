@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Tetris Joycon
-date: 2017-09-12 00:00:00 +0300
-description: The classic Tetris game with an non-conventional interface: the Nintendo Joycon Controller!
+date: 2017-08-12 00:00:00 +0300
+description: The classic Tetris game with an non-conventional interface - the Nintendo Joycon Controller!
 img: joycon_demo.gif # Add image post (optional)
 tags: # Add tags
 ---
