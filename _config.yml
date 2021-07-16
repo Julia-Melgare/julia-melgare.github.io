@@ -10,8 +10,8 @@ site-twitter: #if your site has a twitter account, enter it here
 author: Julia Melgare # add your name
 author-img: julia_melgare.jpg # add your photo
 about-author: I am a Computer Science bachelor with a passion for games, game development, and many other areas of computing such as Computer Graphics, Artificial Intelligence and Data Science. # add description
-# social-twitter: # add your Twitter handle
-# social-facebook: # add your Facebook handle
+social-twitter: # add your Twitter handle
+social-facebook: # add your Facebook handle
 social-github: Julia-Melgare # add your Github handle
 social-linkedin: julia-melgare-a6750a1a2 # add your Linkedin handle
 social-email: julia.melgare@acad.pucrs.br # add your Email address
