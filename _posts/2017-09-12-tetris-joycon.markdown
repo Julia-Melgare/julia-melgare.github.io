@@ -4,7 +4,7 @@ title: Tetris Joycon
 date: 2017-09-12 00:00:00 +0300
 description: The classic Tetris game with an non-conventional interface: the Nintendo Joycon Controller!
 img: joycon_demo.gif # Add image post (optional)
-tags: 
+tags: # Add tags
 ---
 Unity Tetris game with motion controls using the Nintendo Switch Joycon, developed for the discipline of Project and Implementation of Interactive Systems for the undergraduate course in computer science at PUCRS.
 
