@@ -10,8 +10,10 @@ Checkout a playable demo [here](https://julia-melgare.github.io/interactive-wate
 
 This application was developed for the Computer Animation discipline of the Msc course in Computer Science at PUCRS. It combines a deformable mesh that is able to interact with rigid bodies alongside a water shader with vertex displacement. 
 
-For more details regarding the implementation and experiments executed, check out the [technical report](Report.pdf).
+For more details regarding the implementation and experiments executed, check out the [technical report](https://github.com/Julia-Melgare/Deformable-Water/blob/master/Report.pdf).
 
 ![example2](https://github.com/Julia-Melgare/Deformable-Water/raw/master/Gifs/light-obj.gif)![example2](https://github.com/Julia-Melgare/Deformable-Water/raw/master/Gifs/heavy-obj.gif)
 
-The deformable mesh was implemented based on [Catlike Coding's tutorial](https://catlikecoding.com/unity/tutorials/mesh-deformation/) and the ripples were added by following [Minions Art's tutorial](https://www.patreon.com/posts/24192529). 
+The deformable mesh was implemented based on [Catlike Coding's tutorial](https://catlikecoding.com/unity/tutorials/mesh-deformation/) and the ripples were added by following [Minions Art's tutorial](https://www.patreon.com/posts/24192529).
+
+Source code available on [GitHub](https://github.com/Julia-Melgare/Deformable-Water/).
