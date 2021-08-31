@@ -3,7 +3,7 @@ layout: post
 title: Pirate Jam
 date: 2021-08-20 13:32:20 +0300
 description: Submission for Kenney Jam 2021 - Control a pirate ship by rotating its sails and survive the harsh seas!
-img: ezgif-6-7c97edf229a8.gif # Add image post (optional)
+img: 0aUZhb.gif # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 ---
 
