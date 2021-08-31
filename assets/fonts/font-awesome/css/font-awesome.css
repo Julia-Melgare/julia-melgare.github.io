@@ -635,6 +635,9 @@
 .fa-github:before {
   content: "\f09b";
 }
+.fa-itch-io:before {
+  content: "\f83a";
+}
 .fa-unlock:before {
   content: "\f09c";
 }
