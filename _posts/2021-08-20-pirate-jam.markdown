@@ -9,7 +9,7 @@ fig-caption: # Add figcaption (optional)
 
 ![ezgif com-gif-maker_3](https://user-images.githubusercontent.com/42148950/131026234-7cc0ac78-458e-4967-9995-680accec9f5b.gif)
 
-Checkout the game's page on [itch-io](https://julia-melgare.itch.io/pirate-jam)!
+This game was made in 48h during Kenney Jam 2021. The theme for the jam was Rotation. Pirate Jam placed #25 overall and #12 on visuals out of 366 entires! Checkout the game's page on [itch-io](https://julia-melgare.itch.io/pirate-jam)!
 
 In this game, you are stuck in a real jam - a pirate jam!
 
