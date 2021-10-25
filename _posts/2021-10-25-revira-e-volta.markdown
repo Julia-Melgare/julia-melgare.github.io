@@ -27,4 +27,9 @@ In "Revira e Volta", you are a thief breaking into people's houses in Porto Aleg
 
 Use the mouse controls to toss items around while you look for the item. Once you find it, click on it to collect it. Before you can leave the house, though, you have to make sure everything you moved is put back into their place! You don't want to get caught, after all.
 
+<p align="center">
+  <img src="https://github.com/Julia-Melgare/julia-melgare.github.io/blob/gh-pages/assets/img/wyQ3_R.gif?raw=true"/>
+</p>
+
+
 Source code available on [GitHub](https://github.com/Julia-Melgare/Revira-e-Volta).
