@@ -14,6 +14,7 @@ Controls: Use the arrow keys or WASD keys to move the purple sphere around. You 
     <iframe id="waterDemo"
         width="960"
         height="600"
+        frameBorder="0"
         src="https://julia-melgare.github.io/interactive-water-demo">
     </iframe>
   </div>  
