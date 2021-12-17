@@ -6,6 +6,7 @@ description: A Flappy Bird Clone made in Unity
 img:  ezgif-7-e1de312c05.gif # Add image post (optional)
 tags: # add tag
 ---
+This is a simple Flappy Bird Clone developed in Unity. Avaliable for PC Standalone, Android and Web.
 
 Controls:
 - Mouse left-click/Spacebar: Jump
@@ -21,5 +22,4 @@ Controls:
   </div>  
 </p>
 
-This is a simple Flappy Bird Clone developed in Unity. Avaliable for PC Standalone, Android and Web.
 Source code available on [GitLab](https://gitlab.com/Julia-Melgare/flappybirdclone).
