@@ -7,6 +7,7 @@ img: ezgif-7-6909cf87b3ec.gif # Add image post (optional)
 tags: # add tag
 ---
 Checkout a playable demo!
+
 Controls: Use the arrow keys or WASD keys to move the purple sphere around. You can also click on the water with the mouse cursor to deform it.
 <p align="center">
   <div>
