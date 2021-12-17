@@ -6,7 +6,8 @@ description: An interactive stylized fluid animation that uses a deformable mesh
 img: ezgif-7-6909cf87b3ec.gif # Add image post (optional)
 tags: # add tag
 ---
-Checkout a playable demo:
+Checkout a playable demo!
+Controls: Use the arrow keys or WASD keys to move the purple sphere around. You can also click on the water with the mouse cursor to deform it.
 <p align="center">
   <div>
     <iframe id="waterDemo"
