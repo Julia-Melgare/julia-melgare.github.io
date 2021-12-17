@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Flappy Bird Clone
-date: 2017-09-12 00:00:00 +0300
+date: 2021-11-17 00:00:00 +0300
 description: A Flappy Bird Clone made in Unity
 img:  ezgif-7-e1de312c05.gif # Add image post (optional)
 tags: # add tag
