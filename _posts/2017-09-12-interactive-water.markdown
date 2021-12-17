@@ -7,6 +7,15 @@ img: ezgif-7-6909cf87b3ec.gif # Add image post (optional)
 tags: # add tag
 ---
 Checkout a playable demo [here](https://julia-melgare.github.io/interactive-water-demo/)!
+<p align="center">
+  <div>
+    <iframe id="waterDemo"
+        width="600"
+        height="400"
+        src="https://julia-melgare.github.io/interactive-water-demo">
+    </iframe>
+  </div>  
+</p>
 
 This application was developed for the Computer Animation discipline of the Msc course in Computer Science at PUCRS. It combines a deformable mesh that is able to interact with rigid bodies alongside a water shader with vertex displacement. 
 
