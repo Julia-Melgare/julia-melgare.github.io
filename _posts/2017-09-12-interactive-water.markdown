@@ -6,12 +6,12 @@ description: An interactive stylized fluid animation that uses a deformable mesh
 img: ezgif-7-6909cf87b3ec.gif # Add image post (optional)
 tags: # add tag
 ---
-Checkout a playable demo [here](https://julia-melgare.github.io/interactive-water-demo/)!
+Checkout a playable demo:
 <p align="center">
   <div>
     <iframe id="waterDemo"
-        width="600"
-        height="400"
+        width="1200"
+        height="800"
         src="https://julia-melgare.github.io/interactive-water-demo">
     </iframe>
   </div>  
