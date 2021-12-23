@@ -2,7 +2,7 @@
 layout: post
 title: Pac-Man Unity
 date: 2021-11-18 00:00:00 +0300
-description: A Pac-Man Clone made in Unity
+description: A Pac-Man clone made in Unity. Available for PC, Web and AirConsole.
 img:  ezgif-6-6bd382219f.gif # Add image post (optional)
 tags: # add tag
 ---
