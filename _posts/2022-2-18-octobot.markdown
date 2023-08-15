@@ -1,0 +1,16 @@
+---
+layout: post
+title: Octobot Adventures
+date: 2022-2-18 00:00:00 +0300
+description: Mobile Puzzle Game that I worked on while in Double Dash Studios.
+img:  octobot-gameplay.gif # Add image post (optional)
+tags: # add tag
+---
+Octobot Adventures was the first project that I worked on with Double Dash Studios.
+What I did:
+- Implemented core gameplay mechanics (e.g. shoot command, destroyable objects);
+- Implemented animations;
+- Implemented online system using PlayFab;
+- Implemented multiplayer sticker feature.
+
+The game was developed for an educational insitution called International School. It is available for download via [Play Store](https://play.google.com/store/apps/details?id=com.internationalschool.octobotadventures).
