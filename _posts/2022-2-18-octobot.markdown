@@ -6,7 +6,9 @@ description: Mobile Puzzle Game that I worked on while in Double Dash Studios.
 img:  octobot-gameplay.gif # Add image post (optional)
 tags: # add tag
 ---
-![octotitle](https://github.com/Julia-Melgare/julia-melgare.github.io/blob/gh-pages/assets/img/octobot-title.gif)
+<p align="center">
+  <img src="https://github.com/Julia-Melgare/julia-melgare.github.io/blob/gh-pages/assets/img/octobot-title.gif?raw=true"/>
+</p>
 
 Octobot Adventures was the first project that I worked on with Double Dash Studios.
 What I did:
