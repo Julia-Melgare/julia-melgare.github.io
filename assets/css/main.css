@@ -1118,8 +1118,8 @@ footer .copyright {
       -ms-flex-align: stretch;
           align-items: stretch;
   min-height: 11rem;
-  -webkit-border-radius: 10px;
-          border-radius: 10px;
+  -webkit-border-radius: 0;
+          border-radius: 0;
   overflow: hidden;
   -webkit-transition: all .3s ease;
   -o-transition: all .3s ease;
@@ -1157,14 +1157,14 @@ footer .copyright {
 
 .post .post-content .post-title {
   margin: 0 0 10px;
-  font-size: 30px;
-  font-weight: 400;
+  font-size: 21px;
+  font-weight: 200;
 }
 
 .post .post-content .post-title a {
   font-family: 'Open Sans', sans-serif;
   text-decoration: none;
-  color: #263959;
+  color: #312659;
 }
 
 .post .post-content p {
