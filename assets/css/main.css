@@ -1000,6 +1000,17 @@ table tfoot td {
   margin: 0 0 10px;
 }
 
+.sidebar-divider {
+  width: 60px;
+  height: 2px;
+  background: #444;
+  margin: 25px auto;
+}
+
+.sidebar-nav {
+  margin-top: 10px;
+}
+
 .sidebar-nav a {
   display: block;
   font-size: 18px;
