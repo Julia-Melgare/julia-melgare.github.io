@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   if (elem) {
     var infScroll = new InfiniteScroll(elem, {
-      path: '.pagination__next',
+      path: '.older-posts',
       append: '.post',
       history: false,
     });
