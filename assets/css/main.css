@@ -1000,6 +1000,23 @@ table tfoot td {
   margin: 0 0 10px;
 }
 
+.sidebar-nav a {
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  background: #444;
+  padding: 8px 12px;
+  margin: 10px auto;
+  width: 140px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.sidebar-nav a:hover {
+  background: #7c4dff;
+}
+
 .content-box {
   padding: 20px;
   padding-left: 260px;
