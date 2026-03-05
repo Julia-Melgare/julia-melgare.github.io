@@ -142,7 +142,7 @@ footer {
   flex-direction: row;
   align-items: stretch;
   min-height: 22rem;
-  border-radius: 10px;
+  border-radius: 5px;
   overflow: hidden;
   transition: all .3s ease;
   box-shadow: 0 1px 1px 0 rgba(31, 35, 46, .15);
@@ -168,12 +168,12 @@ footer {
     }
     .post-title {
       margin: 0 0 10px;
-      font-size: 30px;
-      font-weight: 400;
+      font-size: 20px;
+      font-weight: 200;
       a {
         font-family: 'Open Sans', serif;
         text-decoration: none;
-        color: $dark-blue;
+        color: $dark-purple;
       }
     }
     p {
