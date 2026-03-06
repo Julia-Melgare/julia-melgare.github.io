@@ -1,8 +1,10 @@
 ---
 layout: main
 ---
+<div class="post-content">
+    <h1 class="main-title">Publications</h1>
+</div>
 
-<h1 class="main-title">Publications</h1>
 
 <div class="posts">
   {% assign publications = site.posts | where_exp: "post", "post.tags contains 'publication'" %}
@@ -18,6 +20,7 @@ layout: main
       {% if post.award %}
       <span class="post-award"><img draggable="false" src="/assets/img/trophy.gif">{{ post.award }}</span>
       {% endif %}
+      <p>{{ post.authors }}</p>
     </div>
   </article>
   {% endfor %}
