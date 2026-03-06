@@ -1,0 +1,25 @@
+---
+layout: main
+---
+
+<h1 class="main-title">Publications</h1>
+
+<div class="posts">
+  {% assign publications = site.posts | where_exp: "post", "post.tags contains 'publication'" %}
+  {% for post in publications %}
+  <article class="post">
+    {% if post.img %}
+      <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href=""></a>
+    {% else %}
+    {% endif %}
+    <div class="post-content">
+      <h2 class="post-title"><a href="">{{post.title}}</a></h2>
+      <p class="post-venue">{{ post.venue }}</p>
+      {% if post.award %}
+      <span class="post-award"><img draggable="false" src="/assets/img/trophy.gif">{{ post.award }}</span>
+    </div>
+  </article>
+  {% endfor %}
+</div>
+
+<!--{% include pagination.html %}-->

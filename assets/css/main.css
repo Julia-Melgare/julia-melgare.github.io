@@ -1017,7 +1017,7 @@ table tfoot td {
 
 .sidebar-nav a {
   display: block;
-  font-size: 21px;
+  font-size: 26px;
   font-weight: 600;
   color: #40176d;
   padding: 8px 12px;
@@ -1202,6 +1202,42 @@ footer .copyright {
   font-family: 'Open Sans', sans-serif;
   text-decoration: none;
   color: #40176d;
+}
+
+.post .post-content .post-venue {
+  margin: 0 0 10px;
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.post .post-content .post-venue a {
+  color: #333036;
+}
+
+.post .post-content .post-venue .post-award {
+  background-color: #e48400;
+  padding: 2px 6px;
+  border-radius: 4px;
+  display: inline;
+}
+
+.post .post-content .post-links {
+  margin-top: 12px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.post .post-content .post-links a {
+  font-size: 0.8rem;
+  padding: 4px 10px;
+  text-decoration: none;
+  color: #40176d;
+  transition: 0.2s;
+}
+
+.post .post-content .post-links a:hover {
+  color: #7b49ad;
 }
 
 .post .post-content p {
