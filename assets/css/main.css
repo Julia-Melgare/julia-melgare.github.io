@@ -1202,7 +1202,7 @@ footer .copyright {
 .post .post-content .post-title {
   margin: 0 0 10px;
   font-size: 21px;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .post .post-content .post-title a {
@@ -1214,7 +1214,6 @@ footer .copyright {
 .post .post-content .post-venue {
   margin: 0 0 10px;
   font-size: 16px;
-  font-weight: 400;
 }
 
 .post .post-content .post-venue a {
@@ -1245,9 +1244,6 @@ footer .copyright {
 
 .post .post-links {
   margin-top: auto;
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
 }
 
 .post .post-links a {
