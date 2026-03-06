@@ -1203,9 +1203,12 @@ footer .copyright {
   margin: 0 0 10px;
   font-size: 21px;
   font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  color: #40176d;
 }
 
-.post .post-content .post-title h2 {
+.post .post-content .post-title a {
   font-family: 'Open Sans', sans-serif;
   text-decoration: none;
   color: #40176d;
@@ -1214,9 +1217,6 @@ footer .copyright {
 .post .post-content .post-venue {
   margin: 0 0 10px;
   font-size: 16px;
-}
-
-.post .post-content .post-venue h4 {
   color: #333036;
 }
 
