@@ -11,7 +11,8 @@ layout: main
     {% for post in publications %}
     <article class="post">
         {% if post.img %}
-        <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href=""></a>
+        <a class="post-thumbnail" style="background-image: url({{ "/assets/img/" | prepend: site.baseurl | append: post.img }})"
+        href="{% if post.webpage %}{{ post.webpage }}{% elsif post.pdf %}{{ post.pdf }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}"></a>
         {% else %}
         {% endif %}
         <div class="post-content">
@@ -24,9 +25,22 @@ layout: main
                     {{ post.award }}
                 </span>
             {% endif %}
-        </p>
-        
-        <p>{{ post.authors }}</p>
+        </p>        
+        <p>{{ post.authors }}</p>        
+        </div>
+        <div class="post-links">
+            {% if post.webpage %}
+            <a href="{{ post.webpage }}" target="_blank">Webpage</a>
+            {% endif %}
+            {% if post.pdf %}
+            <a href="{{ post.pdf }}" target="_blank">PDF</a>
+            {% endif %}
+            {% if post.video %}
+            <a href="{{ post.video }}" target="_blank">Video</a>
+            {% endif %}
+            {% if post.code %}
+            <a href="{{ post.code }}" target="_blank">Code</a>
+            {% endif %}
         </div>
     </article>
     {% endfor %}

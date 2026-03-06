@@ -1189,6 +1189,9 @@ footer .copyright {
 .post .post-content {
   padding: 1rem;
   width: 70%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .post .post-content .post-date,
@@ -1199,7 +1202,7 @@ footer .copyright {
 .post .post-content .post-title {
   margin: 0 0 10px;
   font-size: 21px;
-  font-weight: 200;
+  font-weight: 600;
 }
 
 .post .post-content .post-title a {
@@ -1211,7 +1214,7 @@ footer .copyright {
 .post .post-content .post-venue {
   margin: 0 0 10px;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .post .post-content .post-venue a {
@@ -1224,6 +1227,9 @@ footer .copyright {
   color: white;
   padding: 2px 8px;
   border-radius: 4px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
 }
 
 .post .post-content .post-venue .post-award img {
@@ -1233,14 +1239,18 @@ footer .copyright {
   margin-right: 4px;
 }
 
-.post .post-content .post-links {
-  margin-top: 12px;
+.post .post-content p {
+  margin-top: 0;
+}
+
+.post .post-links {
+  margin-top: auto;
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
 }
 
-.post .post-content .post-links a {
+.post .post-links a {
   font-size: 0.8rem;
   padding: 4px 10px;
   text-decoration: none;
@@ -1248,12 +1258,8 @@ footer .copyright {
   transition: 0.2s;
 }
 
-.post .post-content .post-links a:hover {
+.post .post-links a:hover {
   color: #7b49ad;
-}
-
-.post .post-content p {
-  margin-top: 0;
 }
 
 a.older-posts, a.newer-posts {
