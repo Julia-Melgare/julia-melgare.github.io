@@ -3,6 +3,9 @@ layout: main
 ---
 <div class="post-content">
 <h1 class="main-title">Publications</h1>
+<p>
+Here is a list of my academic publications.
+</p>
 </div>
 
 <div class="posts">
@@ -14,11 +17,17 @@ layout: main
     {% else %}
     {% endif %}
     <div class="post-content">
-      <h2 class="post-title"><a href="">{{post.title}}</a></h2>
-      <p class="post-venue">{{ post.venue }}</p>
-      {% if post.award %}
-      <span class="post-award"><img draggable="false" src="/assets/img/trophy.gif">{{ post.award }}</span>
-      {% endif %}
+      <h2 class="post-title">{{post.title}}</h2>
+      <p class="post-venue">
+        {{ post.venue }}
+        {% if post.award %}
+            <span class="post-award">
+                <img draggable="false" src="/assets/img/trophy.gif">
+                {{ post.award }}
+            </span>
+        {% endif %}
+      </p>
+      
       <p>{{ post.authors }}</p>
     </div>
   </article>

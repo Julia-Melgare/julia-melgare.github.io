@@ -1215,9 +1215,21 @@ footer .copyright {
 }
 
 .post .post-content .post-venue .post-award {
+  margin-left: 10px;
   background-color: #e48400;
-  padding: 2px 6px;
+  color: white;
+  padding: 2px 8px;
   border-radius: 4px;
+  font-size: 14px;
+}
+
+.post .post-content .post-venue .post-award img {
+  margin-left: 10px;
+  background-color: #e48400;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 14px;
 }
 
 .post .post-content .post-links {
