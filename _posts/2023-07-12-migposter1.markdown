@@ -1,0 +1,12 @@
+---
+layout: post
+title: How Much Do We Pay Attention? A Comparative Study of User Gaze and Synthetic Vision during Navigation
+date: 2023-07-12 00:00:00 +0300
+venue: ACM SIGGRAPH MIG 2023
+authors: Julia Melgare, Guido Mainardi, Eduardo Alvarado, Damien Rohmer, Marie-Paule Cani, Soraia Musse
+pdf: https://project.inria.fr/mig2023/files/2023/11/poster_6.pdf
+img: publications/pay-attention-wide.png # Add image post (optional)
+tags: [publication] # Add tags
+---
+
+Data-driven saliency models have proved to accurately infer human visual attention on real images. Reusing such pre-trained models in video games holds significant potential to optimize game design and storytelling. However, the relevance of transferring saliency models trained on real static images to dynamic 3D animated scenes with stylized rendering and animated characters remains to be shown. In this work, we address this question by conducting a user study that quantitatively compares visual attention obtained through gaze recording with the prediction of a pre-trained static saliency model in a 3D animated game environment. Our results indicate that the tested model was able to accurately approximate human visual attention in such conditions.

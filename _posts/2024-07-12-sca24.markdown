@@ -1,0 +1,15 @@
+---
+layout: post
+title: Reactive Gaze during Locomotion in Natural Environments
+date: 2024-07-12 00:00:00 +0300
+venue: ACM SIGGRAPH/Eurographics SCA 2024, Computer Graphics Forum
+award: Best Paper Presentation Honorable Mention Award
+authors: Julia Melgare, Damien Rohmer, Soraia Musse, Marie-Paule Cani
+webpage: https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.15168
+pdf: https://hal.science/hal-04665242v1/file/sca2024.pdf
+video: https://drive.google.com/file/d/1OwfiTbc1nP1JR-7DXo4RQs9K4I55lmmm/view?usp=drive_link
+img: publications/reactive-gaze.gif # Add image post (optional)
+tags: [publication] # Add tags
+---
+
+Animating gaze behavior is crucial for creating believable virtual characters, providing insights into their perception and interaction with the environment. In this paper, we present an efficient yet natural-looking gaze animation model applicable to real-time walking characters exploring natural environments. We address the challenge of dynamic gaze adaptation by combining findings from neuroscience with a data-driven saliency model. Specifically, our model determines gaze focus by considering the character's locomotion, environment stimuli, and terrain conditions. Our model is compatible with both automatic navigation through pre-defined character trajectories and user-guided interactive locomotion, and can be configured according to the desired degree of visual exploration of the environment. Our perceptual evaluation shows that our solution significantly improves the state-of-the-art saliency-based gaze animation with respect to the character's apparent awareness of the environment, the naturalness of the motion, and the elements to which it pays attention.

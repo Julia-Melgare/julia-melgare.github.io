@@ -1,0 +1,14 @@
+---
+layout: post
+title: Which way do I go? Synthetic Visual Attention Guiding Agents Through Dynamic Environments
+date: 2025-09-24 00:00:00 +0300
+venue: ACM IVA 2025
+authors: Julia Melgare, Rubens Montanha, Soraia Musse
+webpage: https://dl.acm.org/doi/abs/10.1145/3717511.3747068
+pdf: https://dl.acm.org/doi/epdf/10.1145/3717511.3747068
+video: https://drive.google.com/file/d/1DstAdxnPLg--fA3jNOoVmXRp0eq9B20u/view?usp=sharing
+img: publications/iva-which-way.gif # Add image post (optional)
+tags: [publication] # Add tags
+---
+
+This paper presents an adaptive visual attention model for guiding dynamic autonomous agents. It allows them to automatically adjust their walking trajectory based on what they see in the environment and their own internal goals in a context of real-time task-driven locomotion. Our approach combines template matching for detection of relevant objects, optical flow for motion perception of dynamic stimuli, and a streamlined decision-making approach for guiding agents through the environment. We apply our approach to the case of an evacuation scenario, where one agent must escape a burning building with several obstacles, including other characters. We also demonstrate how it can be applied to a more open scenario of strolling in an outdoor environment. Our simulations demonstrate that the agent was able to effectively follow the visual cues present in the environment in order to fulfill its goals, and failing to do so when there were elements that heavily impaired its vision, thus showing a natural and organic behavior.
