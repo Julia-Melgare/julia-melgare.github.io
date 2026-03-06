@@ -3,7 +3,7 @@ layout: post
 title: Flappy Bird Clone
 date: 2021-11-17 00:00:00 +0300
 description: A Flappy Bird Clone made in Unity. Avaliable for PC Standalone, Android and Web.
-img:  ezgif-7-e1de312c05.gif # Add image post (optional)
+img:  projects/ezgif-7-e1de312c05.gif # Add image post (optional)
 tags: project # add tag
 ---
 This is a simple Flappy Bird Clone developed in Unity. Features include randomized skins and different difficulty settings.

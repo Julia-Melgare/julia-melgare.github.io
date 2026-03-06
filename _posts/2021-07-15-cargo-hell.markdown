@@ -3,7 +3,7 @@ layout: post
 title: Cargo Hell
 date: 2021-07-15 13:32:20 +0300
 description: A 2D Spaceship Shooter game where your only weapon available is a reflective shield!
-img: ezgif-6-7c97edf229a8.gif # Add image post (optional)
+img: projects/ezgif-6-7c97edf229a8.gif # Add image post (optional)
 tags: project # add tag
 ---
 ![ezgif-6-4a99f2212ddd](https://user-images.githubusercontent.com/42148950/125673739-bf042005-523b-42a8-aebc-ca4b1cbf6d36.gif)

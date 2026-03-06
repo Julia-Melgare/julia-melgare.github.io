@@ -3,7 +3,7 @@ layout: post
 title: Interactive Water Shader with a Deformable Mesh
 date: 2017-09-12 00:00:00 +0300
 description: An interactive stylized fluid animation that uses a deformable mesh and shaders.
-img: ezgif-7-6909cf87b3ec.gif # Add image post (optional)
+img: projects/ezgif-7-6909cf87b3ec.gif # Add image post (optional)
 tags: project # add tag
 ---
 Checkout a playable demo!
