@@ -1,35 +1,34 @@
 ---
 layout: main
 ---
-<div class="post-content">
-<h1 class="main-title">Publications</h1>
-<p>
-Here is a list of my academic publications.
-</p>
-</div>
-
-<div class="posts">
-  {% assign publications = site.posts | where_exp: "post", "post.tags contains 'publication'" %}
-  {% for post in publications %}
-  <article class="post">
-    {% if post.img %}
-      <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href=""></a>
-    {% else %}
-    {% endif %}
+<div class="posts-page">
     <div class="post-content">
-      <h2 class="post-title">{{post.title}}</h2>
-      <p class="post-venue">
-        {{ post.venue }}
-        {% if post.award %}
-            <span class="post-award">
-                <img draggable="false" src="/assets/img/trophy.gif">
-                {{ post.award }}
-            </span>
-        {% endif %}
-      </p>
-      
-      <p>{{ post.authors }}</p>
+    <h1 class="main-title">Publications</h1>
     </div>
-  </article>
-  {% endfor %}
+
+    <div class="posts">
+    {% assign publications = site.posts | where_exp: "post", "post.tags contains 'publication'" %}
+    {% for post in publications %}
+    <article class="post">
+        {% if post.img %}
+        <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href=""></a>
+        {% else %}
+        {% endif %}
+        <div class="post-content">
+        <h2 class="post-title">{{post.title}}</h2>
+        <p class="post-venue">
+            {{ post.venue }}
+            {% if post.award %}
+                <span class="post-award">
+                    <img draggable="false" src="/assets/img/trophy.gif">
+                    {{ post.award }}
+                </span>
+            {% endif %}
+        </p>
+        
+        <p>{{ post.authors }}</p>
+        </div>
+    </article>
+    {% endfor %}
+    </div>
 </div>

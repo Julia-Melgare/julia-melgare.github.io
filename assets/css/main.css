@@ -912,6 +912,10 @@ table tfoot td {
 }
 
 /* - - - - - - - - - - Home Page Styles - - - - - - - - - - */
+.posts-page {
+  width: 100%;
+}
+
 .main-title {
   color: #40176d;
 }
@@ -1220,16 +1224,13 @@ footer .copyright {
   color: white;
   padding: 2px 8px;
   border-radius: 4px;
-  font-size: 14px;
 }
 
 .post .post-content .post-venue .post-award img {
-  margin-left: 10px;
-  background-color: #e48400;
-  color: white;
-  padding: 2px 8px;
-  border-radius: 4px;
-  font-size: 14px;
+  height: 1em;
+  width: auto;
+  vertical-align: middle;
+  margin-right: 4px;
 }
 
 .post .post-content .post-links {
