@@ -1,10 +1,11 @@
 ---
 layout: main
 ---
-<h1>Projects</h1>
+<h1 style="color:#40176d;">Projects</h1>
 <p>
-These are the industry and personal projects I've worked on. Click on the cards to get more information about each of them!
+These are the industry and personal projects I've worked on. Click on the cards to see their full page with more information.
 </p>
+
 <div class="posts">
   {% assign projects = paginator.posts | where_exp: "post", "post.tags contains 'project'" %}
   {% for post in projects %}

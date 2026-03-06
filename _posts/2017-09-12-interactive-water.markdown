@@ -2,11 +2,10 @@
 layout: post
 title: Interactive Water Shader with a Deformable Mesh
 date: 2017-09-12 00:00:00 +0300
-description: An interactive stylized fluid animation that uses a deformable mesh and shaders.
+description: An interactive stylized fluid animation that uses a deformable mesh and shaders. Playable web demo included!
 img: projects/ezgif-7-6909cf87b3ec.gif # Add image post (optional)
 tags: [project] # add tag
 ---
-Checkout a playable demo!
 
 Controls: Use the arrow keys or WASD keys to move the purple sphere around. You can also click on the water with the mouse cursor to deform it.
 <p align="center">
