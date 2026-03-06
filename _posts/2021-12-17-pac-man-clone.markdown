@@ -4,7 +4,7 @@ title: Pac-Man Clone
 date: 2021-11-18 00:00:00 +0300
 description: A Pac-Man clone made in Unity. Available for PC, Web and AirConsole.
 img:  ezgif-6-6bd382219f.gif # Add image post (optional)
-tags: # add tag
+tags: project # add tag
 ---
 Pac-Man implementation developed in Unity. Single player version available for Web and PC. Multiplayer version available for AirConsole.
 I implemented most of the original arcade game's features, including replicating the ghost AI unique behaviors (minus Cruise Elroy mode for Blinky). To do that, I based myself

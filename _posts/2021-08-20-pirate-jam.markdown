@@ -4,7 +4,7 @@ title: Pirate Jam
 date: 2021-08-20 13:32:20 +0300
 description: Submission for Kenney Jam 2021 - Control a pirate ship by rotating its sails and survive the harsh seas!
 img: 0aUZhb.gif # Add image post (optional)
-fig-caption: # Add figcaption (optional)
+tags: project # add tag
 ---
 
 ![ezgif com-gif-maker_3](https://user-images.githubusercontent.com/42148950/131026234-7cc0ac78-458e-4967-9995-680accec9f5b.gif)

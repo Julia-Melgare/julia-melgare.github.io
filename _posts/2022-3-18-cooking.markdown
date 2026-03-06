@@ -1,0 +1,18 @@
+---
+layout: post
+title: Cooking Time
+date: 2022-3-18 00:00:00 +0300
+description: Cooking Mama style mobile game that I worked on while in Double Dash Studios.
+img:  cooking_gameplay.gif # Add image post (optional)
+tags: project # add tag
+---
+
+Cooking Time was my second project at Double Dash Studios, this time as the tech lead.
+What I did:
+- Besides leading the project, I implemented most gameplay mechanics;
+- Implemented a dynamic mesh slicing solution for chopping minigames;
+- Implemented animations;
+- Implemented online system using PlayFab;
+- Worked in alignment with game designers and artists to ship the game.
+
+The game was also developed for an educational insitution called International School.

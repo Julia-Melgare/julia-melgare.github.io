@@ -4,11 +4,21 @@ title: Octobot Adventures
 date: 2022-2-18 00:00:00 +0300
 description: Mobile Puzzle Game that I worked on while in Double Dash Studios.
 img:  octobot-gameplay.gif # Add image post (optional)
-tags: # add tag
+tags: project # add tag
 ---
 <p align="center">
-  <img src="https://github.com/Julia-Melgare/julia-melgare.github.io/blob/gh-pages/assets/img/octobot-title.gif?raw=true"/>
+  <div>
+    <iframe id="octogameplay"
+        width="100%"
+        height="100%"
+        frameBorder="0"
+        title="Octobot Gameplay Video" 
+        allowfullscreen
+        src="https://youtu.be/C5Nevb01k5M">
+    </iframe>
+  </div>  
 </p>
+
 
 Octobot Adventures was the first project that I worked on with Double Dash Studios.
 What I did:
@@ -17,4 +27,4 @@ What I did:
 - Implemented online system using PlayFab;
 - Implemented multiplayer sticker feature.
 
-The game was developed for an educational insitution called International School. It is available for download via [Play Store](https://play.google.com/store/apps/details?id=com.internationalschool.octobotadventures).
+The game was developed for an educational insitution called International School.
