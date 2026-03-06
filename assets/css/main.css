@@ -1207,7 +1207,7 @@ footer .copyright {
 .post .post-content .post-venue {
   margin: 0 0 10px;
   font-size: 16px;
-  font-weight: 200;
+  font-weight: 600;
 }
 
 .post .post-content .post-venue a {
@@ -1218,7 +1218,6 @@ footer .copyright {
   background-color: #e48400;
   padding: 2px 6px;
   border-radius: 4px;
-  display: inline;
 }
 
 .post .post-content .post-links {
