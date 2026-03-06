@@ -912,6 +912,10 @@ table tfoot td {
 }
 
 /* - - - - - - - - - - Home Page Styles - - - - - - - - - - */
+.main-title {
+  color: #40176d;
+}
+
 .sidebar {
   display: -webkit-box;
   display: -webkit-flex;
