@@ -1,28 +1,48 @@
 ---
 layout: main
 ---
-<div class="post-content">
-<h1 class="main-title">Projects</h1>
-
-<p>
-These are the industry and personal projects I've worked on. Click on the cards to see their full page with more information.
-</p>
-</div>
-
-<div class="posts">
-  {% assign projects = paginator.posts | where_exp: "post", "post.tags contains 'project'" %}
-  {% for post in projects %}
-  <article class="post">
-    {% if post.img %}
-      <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
-    {% else %}
-    {% endif %}
+<div class="posts-page">
     <div class="post-content">
-      <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
-      <p>{{ post.description }}</p>
+    <h1 class="main-title">Publications</h1>
     </div>
-  </article>
-  {% endfor %}
-</div>
 
-{% include pagination.html %}
+    <div class="posts">
+    {% assign publications = site.posts | where_exp: "post", "post.tags contains 'publication'" %}
+    {% for post in publications %}
+    <article class="post">
+        {% if post.img %}
+        <a class="post-thumbnail" style="background-image: url({{ "/assets/img/" | prepend: site.baseurl | append: post.img }})"
+        href="{% if post.webpage %}{{ post.webpage }}{% elsif post.pdf %}{{ post.pdf }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}"></a>
+        {% else %}
+        {% endif %}
+        <div class="post-content">
+            <h2 class="post-title">{{post.title}}</h2>
+            <h4 class="post-venue">
+                {{ post.venue }}
+                {% if post.award %}
+                    <span class="post-award">
+                        <img draggable="false" src="/assets/img/trophy.gif">
+                        {{ post.award }}
+                    </span>
+                {% endif %}
+            </h4>        
+            <p>{{ post.authors }}</p>
+            <div class="post-links">
+                {% if post.webpage %}
+                <a href="{{ post.webpage }}" target="_blank">Webpage</a>
+                {% endif %}
+                {% if post.pdf %}
+                <a href="{{ post.pdf }}" target="_blank">PDF</a>
+                {% endif %}
+                {% if post.video %}
+                <a href="{{ post.video }}" target="_blank">Video</a>
+                {% endif %}
+                {% if post.code %}
+                <a href="{{ post.code }}" target="_blank">Code</a>
+                {% endif %}
+            </div>        
+        </div>
+    </article>
+    {% endfor %}
+    </div>
+</div>
