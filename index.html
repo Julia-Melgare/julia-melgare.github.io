@@ -1,8 +1,13 @@
 ---
 layout: main
 ---
+<h1>Projects</h1>
+<p>
+These are the industry and personal projects I've worked on. Click on the cards to get more information about each of them!
+</p>
 <div class="posts">
-  {% for post in paginator.posts %}
+  {% assign projects = paginator.posts | where_exp: "post", "post.tags contains 'project'" %}
+  {% for post in projects %}
   <article class="post">
     {% if post.img %}
       <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>

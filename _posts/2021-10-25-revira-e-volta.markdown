@@ -4,7 +4,7 @@ title: Revira e Volta
 date: 2021-10-25 13:32:20 +0300
 description: Submission for Game Jam Jogos Diversos 2021. You are a thief looking for an item, find it before you get caught!
 img: projects/h6+8w+.gif # Add image post (optional)
-tags: project # add tag
+tags: [project] # add tag
 ---
 
 <p align="center">
