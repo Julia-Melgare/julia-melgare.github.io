@@ -1021,7 +1021,7 @@ table tfoot td {
 
 .sidebar-nav a {
   display: block;
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 600;
   color: #40176d;
   padding: 8px 12px;
@@ -1205,7 +1205,7 @@ footer .copyright {
   font-weight: 600;
 }
 
-.post .post-content .post-title a {
+.post .post-content .post-title h2 {
   font-family: 'Open Sans', sans-serif;
   text-decoration: none;
   color: #40176d;
@@ -1216,7 +1216,7 @@ footer .copyright {
   font-size: 16px;
 }
 
-.post .post-content .post-venue a {
+.post .post-content .post-venue h4 {
   color: #333036;
 }
 
@@ -1224,7 +1224,7 @@ footer .copyright {
   margin-left: 10px;
   background-color: #e48400;
   color: white;
-  font-size: 14px;
+  font-size: 16px;
   padding: 2px 8px;
   border-radius: 4px;
   display: inline-flex;
