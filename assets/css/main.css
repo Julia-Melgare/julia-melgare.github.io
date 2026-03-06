@@ -1202,7 +1202,7 @@ footer .copyright {
 .post .post-content .post-title {
   margin: 0 0 10px;
   font-size: 21px;
-  font-weight: 600;
+  font-weight: 200;
   font-family: 'Open Sans', sans-serif;
   text-decoration: none;
   color: #40176d;
@@ -1224,7 +1224,7 @@ footer .copyright {
   margin-left: 10px;
   background-color: #e48400;
   color: white;
-  font-size: 16px;
+  font-size: 14px;
   padding: 2px 8px;
   border-radius: 4px;
   display: inline-flex;
