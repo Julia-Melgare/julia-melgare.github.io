@@ -3,7 +3,7 @@ layout: post
 title: Cooking Time
 date: 2022-3-18 00:00:00 +0300
 description: Cooking Mama style mobile game that I worked on while in Double Dash Studios.
-img:  cooking_gameplay.gif # Add image post (optional)
+img:  projects/cooking_gameplay.gif # Add image post (optional)
 tags: project # add tag
 ---
 

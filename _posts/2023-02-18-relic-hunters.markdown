@@ -3,7 +3,7 @@ layout: post
 title: Relic Hunters Legend
 date: 2023-2-18 00:00:00 +0300
 description: Looter Shooter Online Multiplayer Game that I worked on with Double Dash Studios and Rogue Snail.
-img:  relic-gameplay.gif # Add image post (optional)
+img:  projects/relic-gameplay.gif # Add image post (optional)
 tags: project # add tag
 ---
 <p align="center">
