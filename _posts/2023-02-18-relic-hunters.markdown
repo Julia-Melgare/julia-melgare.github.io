@@ -8,14 +8,7 @@ tags: project # add tag
 ---
 <p align="center">
   <div>
-    <iframe id="relic"
-        width="100%"
-        height="100%"
-        frameBorder="0"
-        title="Relic Hunters Legend Early Access Trailer" 
-        allowfullscreen
-        src="https://youtu.be/E887NTEaAEQ">
-    </iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/E887NTEaAEQ?si=kNMdSI8vT4Gm0gZ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </div>  
 </p>
 
