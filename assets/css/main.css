@@ -1213,7 +1213,7 @@ footer .copyright {
 
 .post .post-content .post-venue {
   margin: 0 0 10px;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .post .post-content .post-venue a {
@@ -1224,7 +1224,7 @@ footer .copyright {
   margin-left: 10px;
   background-color: #e48400;
   color: white;
-  font-size: 14px;
+  font-size: 16px;
   padding: 2px 8px;
   border-radius: 4px;
   display: inline-flex;
@@ -1248,8 +1248,10 @@ footer .copyright {
 }
 
 .post .post-links a {
-  font-size: 0.9rem;
-  padding: 4px 10px;
+  font-size: 16px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 20px;
   text-decoration: none;
   color: #40176d;
   transition: 0.2s;
