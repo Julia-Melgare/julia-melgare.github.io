@@ -1017,10 +1017,9 @@ table tfoot td {
 
 .sidebar-nav a {
   display: block;
-  font-size: 18px;
+  font-size: 21px;
   font-weight: 600;
-  color: white;
-  background: #7b49ad;
+  color: #40176d;
   padding: 8px 12px;
   margin: 10px auto;
   width: 140px;
@@ -1029,7 +1028,10 @@ table tfoot td {
 }
 
 .sidebar-nav a:hover {
-  background: #40176d;
+  color: #7b49ad;
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .content-box {
@@ -1120,7 +1122,7 @@ table tfoot td {
 }
 
 .contact ul li a:hover {
-  color: #40176d;
+  color: #7b49ad;
   -webkit-transform: scale(1.2);
       -ms-transform: scale(1.2);
           transform: scale(1.2);
