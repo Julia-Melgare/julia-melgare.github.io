@@ -884,6 +884,7 @@ table tfoot td {
 }
 
 .wrapper {
+  display: flex;
   max-width: 1100px;
   margin: 0 auto;
 }
@@ -926,12 +927,9 @@ table tfoot td {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
+  position: relative;
   width: 240px;
-  height: 100%;
+  min-height: 100vh;
   padding: 20px 10px;
   background-color: #ffffff;
 }
@@ -948,7 +946,7 @@ table tfoot td {
   -webkit-border-radius: 100%;
           border-radius: 100%;
   overflow: hidden;
-  background-color: #333030;
+  background-color: #7b49ad;
 }
 
 .about img {
@@ -1001,7 +999,7 @@ table tfoot td {
 }
 
 .sidebar-divider {
-  width: 120px;
+  width: 240px;
   height: 2px;
   background: #40176d;
   margin: 25px auto;
@@ -1192,7 +1190,7 @@ footer .copyright {
 .post .post-content .post-title a {
   font-family: 'Open Sans', sans-serif;
   text-decoration: none;
-  color: #312659;
+  color: #40176d;
 }
 
 .post .post-content p {
