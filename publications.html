@@ -16,31 +16,31 @@ layout: main
         {% else %}
         {% endif %}
         <div class="post-content">
-        <h2 class="post-title">{{post.title}}</h2>
-        <p class="post-venue">
-            {{ post.venue }}
-            {% if post.award %}
-                <span class="post-award">
-                    <img draggable="false" src="/assets/img/trophy.gif">
-                    {{ post.award }}
-                </span>
-            {% endif %}
-        </p>        
-        <p>{{ post.authors }}</p>        
-        </div>
-        <div class="post-links">
-            {% if post.webpage %}
-            <a href="{{ post.webpage }}" target="_blank">Webpage</a>
-            {% endif %}
-            {% if post.pdf %}
-            <a href="{{ post.pdf }}" target="_blank">PDF</a>
-            {% endif %}
-            {% if post.video %}
-            <a href="{{ post.video }}" target="_blank">Video</a>
-            {% endif %}
-            {% if post.code %}
-            <a href="{{ post.code }}" target="_blank">Code</a>
-            {% endif %}
+            <h2 class="post-title">{{post.title}}</h2>
+            <h4 class="post-venue">
+                {{ post.venue }}
+                {% if post.award %}
+                    <span class="post-award">
+                        <img draggable="false" src="/assets/img/trophy.gif">
+                        {{ post.award }}
+                    </span>
+                {% endif %}
+            </h4>        
+            <p>{{ post.authors }}</p>
+            <div class="post-links">
+                {% if post.webpage %}
+                <a href="{{ post.webpage }}" target="_blank">Webpage</a>
+                {% endif %}
+                {% if post.pdf %}
+                <a href="{{ post.pdf }}" target="_blank">PDF</a>
+                {% endif %}
+                {% if post.video %}
+                <a href="{{ post.video }}" target="_blank">Video</a>
+                {% endif %}
+                {% if post.code %}
+                <a href="{{ post.code }}" target="_blank">Code</a>
+                {% endif %}
+            </div>        
         </div>
     </article>
     {% endfor %}
